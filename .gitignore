@@ -1,0 +1,12 @@
+# Ignorar node_modules
+node_modules/
+
+# Ignorar archivos de entorno
+.env
+
+# Otros comunes en proyectos Node o Angular
+uploads/
+dist/
+build/
+.DS_Store
+npm-debug.log*
