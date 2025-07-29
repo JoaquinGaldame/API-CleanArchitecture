@@ -14,36 +14,8 @@ Esta API sirve como base para el desarrollo de aplicaciones que requieren una ca
 - Diseñada para ejecución en contenedores (Docker) y entornos de nube.
 
 ## Estructura del Proyecto API Clean Architecture
-src/
-│
-├── core/                         # Lógica de negocio
-│   ├── domain/                   # Entidades y abstracciones
-│   │   └── entity.ts             # Ejemplo de Entidad
-│   ├── use-cases/                # Casos de uso (reglas de aplicación)
-│   │   └── entities/             # Por módulo (product, user, etc.)
-│   │       └── createEntity.ts
-│   └── repositories/             # Interfaces de repositorios (puertos)
-│       └── entityRepository.ts
-│
-├── infrastructure/               # Implementación de servicios
-│   ├── db/                       # Configuración de Drizzle
-│   │   ├── schema/               # Esquemas de Bases de Datos
-│   │   │   └── entity.ts         # Ejemplo de Esquema de Entidad
-│   │   └── connection.ts         # Conexión a Base de Datos (Drizzle ORM)
-│   └── repositories/             # Implementaciones de los repositorios
-│       └── entityRepositoryImpl.ts
-│
-├── interfaces/                   # Capa de presentación (HTTP)
-│   ├── controllers/              # Controladores (adaptadores entrantes) 
-│   │   └── entityController.ts
-│   └── routes/                   # Endpoints Express
-│       └── entityRoutes.ts 
-│
-├── config/                       # Variables de entorno y settings
-│   └── env.ts
-│
-└── server.ts                     # Punto de entrada de la aplicación
 
+<img top="500" height="300" width="400" alt="Infraestructure" src="src/core/domain/Services/assets/Infraestructure-project.png">
 
 ## Tecnologías
 
