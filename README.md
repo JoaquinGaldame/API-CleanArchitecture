@@ -15,7 +15,7 @@ Esta API sirve como base para el desarrollo de aplicaciones que requieren una ca
 
 ## Estructura del Proyecto API Clean Architecture
 
-<img top="500" height="300" width="400" alt="Infraestructure" src="src/core/domain/Services/assets/Infraestructure-project.png">
+<img top="500" height="600" width="600" alt="Infraestructure" src="src/core/domain/Services/assets/Infraestructure-project.png">
 
 ## Tecnologías
 
@@ -63,3 +63,8 @@ Estructura preparada para contenedores y despliegue en la nube. Próximamente di
 2) UseCase --> Repository Interface --> Repository
 
 3) Repository  --> Implementation --> Databases
+
+
+## Author: Joaquin Antonio Galdame
+
+### University technician in programming. Full Stack Web Developer
